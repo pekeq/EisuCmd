@@ -11,15 +11,20 @@
 		D559FF97278086D300C8A1EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559FF96278086D300C8A1EB /* ContentView.swift */; };
 		D559FF99278086D800C8A1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D559FF98278086D800C8A1EB /* Assets.xcassets */; };
 		D559FF9C278086D800C8A1EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D559FF9B278086D800C8A1EB /* Preview Assets.xcassets */; };
+		D559FFA4278087FE00C8A1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559FFA3278087FE00C8A1EB /* AppDelegate.swift */; };
+		D559FFA62780886B00C8A1EB /* KeyEventTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D559FFA52780886B00C8A1EB /* KeyEventTap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D559FF91278086D300C8A1EB /* EisuCmd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisuCmd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D559FF91278086D300C8A1EB /* 英数⌘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "英数⌘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D559FF94278086D300C8A1EB /* EisuCmdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuCmdApp.swift; sourceTree = "<group>"; };
 		D559FF96278086D300C8A1EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D559FF98278086D800C8A1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D559FF9B278086D800C8A1EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D559FF9D278086D800C8A1EB /* EisuCmd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EisuCmd.entitlements; sourceTree = "<group>"; };
+		D559FFA3278087FE00C8A1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D559FFA52780886B00C8A1EB /* KeyEventTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyEventTap.swift; sourceTree = "<group>"; };
+		D559FFA7278088B400C8A1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +49,7 @@
 		D559FF92278086D300C8A1EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D559FF91278086D300C8A1EB /* EisuCmd.app */,
+				D559FF91278086D300C8A1EB /* 英数⌘.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +57,10 @@
 		D559FF93278086D300C8A1EB /* EisuCmd */ = {
 			isa = PBXGroup;
 			children = (
+				D559FFA7278088B400C8A1EB /* Info.plist */,
 				D559FF94278086D300C8A1EB /* EisuCmdApp.swift */,
+				D559FFA3278087FE00C8A1EB /* AppDelegate.swift */,
+				D559FFA52780886B00C8A1EB /* KeyEventTap.swift */,
 				D559FF96278086D300C8A1EB /* ContentView.swift */,
 				D559FF98278086D800C8A1EB /* Assets.xcassets */,
 				D559FF9D278086D800C8A1EB /* EisuCmd.entitlements */,
@@ -72,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D559FF90278086D300C8A1EB /* EisuCmd */ = {
+		D559FF90278086D300C8A1EB /* 英数⌘ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D559FFA0278086D800C8A1EB /* Build configuration list for PBXNativeTarget "EisuCmd" */;
+			buildConfigurationList = D559FFA0278086D800C8A1EB /* Build configuration list for PBXNativeTarget "英数⌘" */;
 			buildPhases = (
 				D559FF8D278086D300C8A1EB /* Sources */,
 				D559FF8E278086D300C8A1EB /* Frameworks */,
@@ -84,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = EisuCmd;
+			name = "英数⌘";
 			productName = EisuCmd;
-			productReference = D559FF91278086D300C8A1EB /* EisuCmd.app */;
+			productReference = D559FF91278086D300C8A1EB /* 英数⌘.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D559FF90278086D300C8A1EB /* EisuCmd */,
+				D559FF90278086D300C8A1EB /* 英数⌘ */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D559FFA62780886B00C8A1EB /* KeyEventTap.swift in Sources */,
+				D559FFA4278087FE00C8A1EB /* AppDelegate.swift in Sources */,
 				D559FF97278086D300C8A1EB /* ContentView.swift in Sources */,
 				D559FF95278086D300C8A1EB /* EisuCmdApp.swift in Sources */,
 			);
@@ -274,6 +284,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EisuCmd/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EisuCmd/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +310,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EisuCmd/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EisuCmd/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D559FFA0278086D800C8A1EB /* Build configuration list for PBXNativeTarget "EisuCmd" */ = {
+		D559FFA0278086D800C8A1EB /* Build configuration list for PBXNativeTarget "英数⌘" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D559FFA1278086D800C8A1EB /* Debug */,
